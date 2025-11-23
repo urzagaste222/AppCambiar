@@ -1,0 +1,19 @@
+{
+  "config_version": 1,
+
+  "ars_to_bob": {
+    "profit_margin": 0.030,
+    "p2p_operation": "BUY",
+    "payment_methods": ["MercadoPago", "Transferencia bancaria"],
+    "min_amount": 15000,
+    "verified_only": true
+  },
+
+  "bob_to_ars": {
+    "profit_margin": 0.030,
+    "p2p_operation": "SELL",
+    "payment_methods": ["Transferencia bancaria"],
+    "min_amount": 100,
+    "verified_only": true
+  }
+}
